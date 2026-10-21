@@ -1,0 +1,13 @@
+﻿<Application x:Class="Tema1_MVP.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Tema1_MVP"
+             xmlns:conv="clr-namespace:Tema1_MVP.Converters"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <conv:InverseBooleanConverter x:Key="InverseBooleanConverter"/>
+        <conv:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+        <conv:ModifiedToBrushConverter x:Key="ModifiedToBrushConverter"/>
+        <conv:BoolToGridLengthConverter x:Key="BoolToGridLengthConverter"/>
+    </Application.Resources>
+</Application>

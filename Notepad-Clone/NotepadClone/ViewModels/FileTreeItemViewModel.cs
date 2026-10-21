@@ -1,0 +1,101 @@
+using System.Collections.ObjectModel;
+using System.IO;
+using Tema1_MVP.Models;
+
+namespace Tema1_MVP.ViewModels
+{
+    /// <summary>
+    /// ViewModel for a node in the folder-explorer TreeView.
+    /// Supports lazy loading of children when a directory is expanded.
+    /// </summary>
+    public class FileTreeItemViewModel : BaseViewModel
+    {
+        private bool _isExpanded;
+        private bool _isSelected;
+
+        public FileTreeItemModel Model { get; }
+        public ObservableCollection<FileTreeItemViewModel> Children { get; } = new();
+
+        public string Name => Model.Name;
+        public string FullPath => Model.FullPath;
+        public bool IsDirectory => Model.IsDirectory;
+
+        /// <summary>Dummy child used to show the expand arrow before real children are loaded.</summary>
+        private static readonly FileTreeItemViewModel _dummyChild =
+            new(new FileTreeItemModel { Name = "Loading..." });
+
+        public FileTreeItemViewModel(FileTreeItemModel model)
+        {
+            Model = model;
+
+            // If this is a directory, add a dummy child so the expand arrow appears.
+            if (model.IsDirectory)
+                Children.Add(_dummyChild);
+        }
+
+        public bool IsExpanded
+        {
+            get => _isExpanded;
+            set
+            {
+                if (SetProperty(ref _isExpanded, value) && value)
+                    LoadChildren();
+            }
+        }
+
+        public bool IsSelected
+        {
+            get => _isSelected;
+            set => SetProperty(ref _isSelected, value);
+        }
+
+        /// <summary>
+        /// Lazily loads child file-system entries the first time the node is expanded.
+        /// </summary>
+        private void LoadChildren()
+        {
+            if (Children.Count == 1 && Children[0] == _dummyChild)
+            {
+                Children.Clear();
+                try
+                {
+                    // Load sub-directories first, then files
+                    foreach (var dir in Directory.GetDirectories(FullPath))
+                    {
+                        var model = new FileTreeItemModel
+                        {
+                            Name = Path.GetFileName(dir),
+                            FullPath = dir,
+                            IsDirectory = true
+                        };
+                        Children.Add(new FileTreeItemViewModel(model));
+                    }
+
+                    foreach (var file in Directory.GetFiles(FullPath))
+                    {
+                        var model = new FileTreeItemModel
+                        {
+                            Name = Path.GetFileName(file),
+                            FullPath = file,
+                            IsDirectory = false
+                        };
+                        Children.Add(new FileTreeItemViewModel(model));
+                    }
+                }
+                catch
+                {
+                    // Access denied or IO error – leave children empty
+                }
+            }
+        }
+
+        /// <summary>Refreshes the children list (used after creating a new file inside this folder).</summary>
+        public void Refresh()
+        {
+            Children.Clear();
+            Children.Add(_dummyChild);
+            if (_isExpanded)
+                LoadChildren();
+        }
+    }
+}

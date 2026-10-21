@@ -1,0 +1,51 @@
+﻿using System.Globalization;
+using System.Windows;
+using System.Windows.Data;
+using Brush = System.Windows.Media.Brush;
+using Brushes = System.Windows.Media.Brushes;
+
+namespace Tema1_MVP.Converters
+{
+    /// <summary>Converts bool to Visibility. Pass parameter="Inverse" to invert.</summary>
+    [ValueConversion(typeof(bool), typeof(Visibility))]
+    public class BoolToVisibilityConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            bool flag = value is bool b && b;
+            if (parameter as string == "Inverse") flag = !flag;
+            return flag ? Visibility.Visible : Visibility.Collapsed;
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+            => value is Visibility v && v == Visibility.Visible;
+    }
+
+    /// <summary>Returns a red Brush when the document is modified, otherwise the default foreground.</summary>
+    [ValueConversion(typeof(bool), typeof(Brush))]
+    public class ModifiedToBrushConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+            => value is bool b && b ? Brushes.OrangeRed : Brushes.White;
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+            => DependencyProperty.UnsetValue;
+    }
+
+    /// <summary>
+    /// Converts bool to GridLength.
+    /// true  → 220 (explorer visible, fixed initial width, user can resize with splitter)
+    /// false → 0   (explorer hidden)
+    /// </summary>
+    [ValueConversion(typeof(bool), typeof(GridLength))]
+    public class BoolToGridLengthConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+            => value is bool b && b
+                ? new GridLength(220, GridUnitType.Pixel)
+                : new GridLength(0, GridUnitType.Pixel);
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+            => value is GridLength gl && gl.Value > 0;
+    }
+}

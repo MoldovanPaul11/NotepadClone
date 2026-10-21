@@ -1,0 +1,70 @@
+﻿<Window x:Class="Tema1_MVP.Views.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="About - Notepad++ Clone"
+        Width="400" Height="270"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        Background="#1E1E2E">
+
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#CDD6F4"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="24">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title -->
+        <TextBlock Grid.Row="0"
+                   Text="Notepad++ Clone – MVP Tema 1"
+                   FontSize="17" FontWeight="Bold"
+                   Foreground="#89DCEB"
+                   HorizontalAlignment="Center"
+                   Margin="0,0,0,18"/>
+
+        <!-- Student details -->
+        <StackPanel Grid.Row="1">
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,6">
+                <TextBlock Text="Nume:  " FontWeight="SemiBold"/>
+                <TextBlock Text="Paul Student"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,6">
+                <TextBlock Text="Grupă:  " FontWeight="SemiBold"/>
+                <TextBlock Text="921"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,6">
+                <TextBlock Text="Email:  " FontWeight="SemiBold"/>
+                <TextBlock>
+                    <Hyperlink NavigateUri="mailto:paul.student@student.upt.ro"
+                               RequestNavigate="Hyperlink_RequestNavigate"
+                               Foreground="#89B4FA">
+                        paul.student@student.upt.ro
+                    </Hyperlink>
+                </TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,8,0,0">
+                <TextBlock Text="Versiune:  " FontWeight="SemiBold"/>
+                <TextBlock Text="1.0.0"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Close button -->
+        <Button Grid.Row="2"
+                Content="Close"
+                HorizontalAlignment="Center"
+                Padding="28,7"
+                Margin="0,12,0,0"
+                Click="CloseButton_Click"
+                Background="#313244"
+                Foreground="#CDD6F4"
+                BorderBrush="#45475A"
+                Cursor="Hand"/>
+    </Grid>
+</Window>

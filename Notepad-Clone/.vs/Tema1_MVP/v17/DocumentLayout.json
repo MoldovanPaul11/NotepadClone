@@ -1,0 +1,373 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|c:\\users\\paul\\desktop\\teme_si_materiale_cursuri\\anul2-s2\\mvp\\tema1\\tema1_mvp\\tema1_mvp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|solutionrelative:tema1_mvp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|c:\\users\\paul\\desktop\\teme_si_materiale_cursuri\\anul2-s2\\mvp\\tema1\\tema1_mvp\\tema1_mvp\\views\\findreplacewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|solutionrelative:tema1_mvp\\views\\findreplacewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|c:\\users\\paul\\desktop\\teme_si_materiale_cursuri\\anul2-s2\\mvp\\tema1\\tema1_mvp\\tema1_mvp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|solutionrelative:tema1_mvp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|c:\\users\\paul\\desktop\\teme_si_materiale_cursuri\\anul2-s2\\mvp\\tema1\\tema1_mvp\\tema1_mvp\\views\\aboutwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|solutionrelative:tema1_mvp\\views\\aboutwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|c:\\users\\paul\\desktop\\teme_si_materiale_cursuri\\anul2-s2\\mvp\\tema1\\tema1_mvp\\tema1_mvp\\views\\findreplacewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|solutionrelative:tema1_mvp\\views\\findreplacewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|c:\\users\\paul\\desktop\\teme_si_materiale_cursuri\\anul2-s2\\mvp\\tema1\\tema1_mvp\\tema1_mvp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|solutionrelative:tema1_mvp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|c:\\users\\paul\\desktop\\teme_si_materiale_cursuri\\anul2-s2\\mvp\\tema1\\tema1_mvp\\tema1_mvp\\views\\aboutwindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|solutionrelative:tema1_mvp\\views\\aboutwindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|c:\\users\\paul\\desktop\\teme_si_materiale_cursuri\\anul2-s2\\mvp\\tema1\\tema1_mvp\\tema1_mvp\\views\\findreplacewindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|solutionrelative:tema1_mvp\\views\\findreplacewindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|c:\\users\\paul\\desktop\\teme_si_materiale_cursuri\\anul2-s2\\mvp\\tema1\\tema1_mvp\\tema1_mvp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|solutionrelative:tema1_mvp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|c:\\users\\paul\\desktop\\teme_si_materiale_cursuri\\anul2-s2\\mvp\\tema1\\tema1_mvp\\tema1_mvp\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|solutionrelative:tema1_mvp\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|c:\\users\\paul\\desktop\\teme_si_materiale_cursuri\\anul2-s2\\mvp\\tema1\\tema1_mvp\\tema1_mvp\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|solutionrelative:tema1_mvp\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|c:\\users\\paul\\desktop\\teme_si_materiale_cursuri\\anul2-s2\\mvp\\tema1\\tema1_mvp\\tema1_mvp\\models\\documentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|solutionrelative:tema1_mvp\\models\\documentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|c:\\users\\paul\\desktop\\teme_si_materiale_cursuri\\anul2-s2\\mvp\\tema1\\tema1_mvp\\tema1_mvp\\models\\filetreeitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|solutionrelative:tema1_mvp\\models\\filetreeitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|c:\\users\\paul\\desktop\\teme_si_materiale_cursuri\\anul2-s2\\mvp\\tema1\\tema1_mvp\\tema1_mvp\\viewmodels\\documentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|solutionrelative:tema1_mvp\\viewmodels\\documentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|c:\\users\\paul\\desktop\\teme_si_materiale_cursuri\\anul2-s2\\mvp\\tema1\\tema1_mvp\\tema1_mvp\\viewmodels\\filetreeitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|solutionrelative:tema1_mvp\\viewmodels\\filetreeitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|c:\\users\\paul\\desktop\\teme_si_materiale_cursuri\\anul2-s2\\mvp\\tema1\\tema1_mvp\\tema1_mvp\\services\\idialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|solutionrelative:tema1_mvp\\services\\idialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|c:\\users\\paul\\desktop\\teme_si_materiale_cursuri\\anul2-s2\\mvp\\tema1\\tema1_mvp\\tema1_mvp\\services\\dialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|solutionrelative:tema1_mvp\\services\\dialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|c:\\users\\paul\\desktop\\teme_si_materiale_cursuri\\anul2-s2\\mvp\\tema1\\tema1_mvp\\tema1_mvp\\tema1_mvp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|solutionrelative:tema1_mvp\\tema1_mvp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|c:\\users\\paul\\desktop\\teme_si_materiale_cursuri\\anul2-s2\\mvp\\tema1\\tema1_mvp\\tema1_mvp\\views\\aboutwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|solutionrelative:tema1_mvp\\views\\aboutwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|c:\\users\\paul\\desktop\\teme_si_materiale_cursuri\\anul2-s2\\mvp\\tema1\\tema1_mvp\\tema1_mvp\\converters\\inversebooleanconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|solutionrelative:tema1_mvp\\converters\\inversebooleanconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|c:\\users\\paul\\desktop\\teme_si_materiale_cursuri\\anul2-s2\\mvp\\tema1\\tema1_mvp\\tema1_mvp\\converters\\converters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|solutionrelative:tema1_mvp\\converters\\converters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|c:\\users\\paul\\desktop\\teme_si_materiale_cursuri\\anul2-s2\\mvp\\tema1\\tema1_mvp\\tema1_mvp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D2CFAA7-7B07-4827-9016-546D9DE0D760}|Tema1_MVP\\Tema1_MVP.csproj|solutionrelative:tema1_mvp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 21,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Tema1_MVP\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\App.xaml.cs",
+              "RelativeToolTip": "Tema1_MVP\\App.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAMBcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T10:55:16.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FindReplaceWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Views\\FindReplaceWindow.xaml",
+              "RelativeDocumentMoniker": "Tema1_MVP\\Views\\FindReplaceWindow.xaml",
+              "ToolTip": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Views\\FindReplaceWindow.xaml",
+              "RelativeToolTip": "Tema1_MVP\\Views\\FindReplaceWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-05T10:46:43.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AboutWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Views\\AboutWindow.xaml",
+              "RelativeDocumentMoniker": "Tema1_MVP\\Views\\AboutWindow.xaml",
+              "ToolTip": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Views\\AboutWindow.xaml",
+              "RelativeToolTip": "Tema1_MVP\\Views\\AboutWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-05T10:46:41.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\App.xaml",
+              "RelativeDocumentMoniker": "Tema1_MVP\\App.xaml",
+              "ToolTip": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\App.xaml",
+              "RelativeToolTip": "Tema1_MVP\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-05T10:41:59.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Converters.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Converters\\Converters.cs",
+              "RelativeDocumentMoniker": "Tema1_MVP\\Converters\\Converters.cs",
+              "ToolTip": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Converters\\Converters.cs",
+              "RelativeToolTip": "Tema1_MVP\\Converters\\Converters.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAABRwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T10:41:53.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "InverseBooleanConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Converters\\InverseBooleanConverter.cs",
+              "RelativeDocumentMoniker": "Tema1_MVP\\Converters\\InverseBooleanConverter.cs",
+              "ToolTip": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Converters\\InverseBooleanConverter.cs",
+              "RelativeToolTip": "Tema1_MVP\\Converters\\InverseBooleanConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T10:41:45.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FindReplaceWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Views\\FindReplaceWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Tema1_MVP\\Views\\FindReplaceWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Views\\FindReplaceWindow.xaml.cs",
+              "RelativeToolTip": "Tema1_MVP\\Views\\FindReplaceWindow.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAhwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T10:40:32.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FindReplaceWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Views\\FindReplaceWindow.xaml",
+              "RelativeDocumentMoniker": "Tema1_MVP\\Views\\FindReplaceWindow.xaml",
+              "ToolTip": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Views\\FindReplaceWindow.xaml",
+              "RelativeToolTip": "Tema1_MVP\\Views\\FindReplaceWindow.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-05T10:40:24.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AboutWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Views\\AboutWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Tema1_MVP\\Views\\AboutWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Views\\AboutWindow.xaml.cs",
+              "RelativeToolTip": "Tema1_MVP\\Views\\AboutWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T10:40:03.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AboutWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Views\\AboutWindow.xaml",
+              "RelativeDocumentMoniker": "Tema1_MVP\\Views\\AboutWindow.xaml",
+              "ToolTip": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Views\\AboutWindow.xaml",
+              "RelativeToolTip": "Tema1_MVP\\Views\\AboutWindow.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-05T10:39:58.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "Tema1_MVP\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "Tema1_MVP\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAOABAAAAAAAAAADwvyUCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T10:39:45.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Tema1_MVP.csproj",
+              "DocumentMoniker": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Tema1_MVP.csproj",
+              "RelativeDocumentMoniker": "Tema1_MVP\\Tema1_MVP.csproj",
+              "ToolTip": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Tema1_MVP.csproj",
+              "RelativeToolTip": "Tema1_MVP\\Tema1_MVP.csproj",
+              "ViewState": "AgIAAAsAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-05T10:38:43.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DialogService.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Services\\DialogService.cs",
+              "RelativeDocumentMoniker": "Tema1_MVP\\Services\\DialogService.cs",
+              "ToolTip": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Services\\DialogService.cs",
+              "RelativeToolTip": "Tema1_MVP\\Services\\DialogService.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAABRwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T10:38:31.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IDialogService.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Services\\IDialogService.cs",
+              "RelativeDocumentMoniker": "Tema1_MVP\\Services\\IDialogService.cs",
+              "ToolTip": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Services\\IDialogService.cs",
+              "RelativeToolTip": "Tema1_MVP\\Services\\IDialogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T10:38:05.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FileTreeItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\ViewModels\\FileTreeItemViewModel.cs",
+              "RelativeDocumentMoniker": "Tema1_MVP\\ViewModels\\FileTreeItemViewModel.cs",
+              "ToolTip": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\ViewModels\\FileTreeItemViewModel.cs",
+              "RelativeToolTip": "Tema1_MVP\\ViewModels\\FileTreeItemViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T10:37:04.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DocumentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\ViewModels\\DocumentViewModel.cs",
+              "RelativeDocumentMoniker": "Tema1_MVP\\ViewModels\\DocumentViewModel.cs",
+              "ToolTip": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\ViewModels\\DocumentViewModel.cs",
+              "RelativeToolTip": "Tema1_MVP\\ViewModels\\DocumentViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T10:36:44.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FileTreeItemModel.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Models\\FileTreeItemModel.cs",
+              "RelativeDocumentMoniker": "Tema1_MVP\\Models\\FileTreeItemModel.cs",
+              "ToolTip": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Models\\FileTreeItemModel.cs",
+              "RelativeToolTip": "Tema1_MVP\\Models\\FileTreeItemModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T10:36:12.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DocumentModel.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Models\\DocumentModel.cs",
+              "RelativeDocumentMoniker": "Tema1_MVP\\Models\\DocumentModel.cs",
+              "ToolTip": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Models\\DocumentModel.cs",
+              "RelativeToolTip": "Tema1_MVP\\Models\\DocumentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T10:35:44.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "Tema1_MVP\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "Tema1_MVP\\ViewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T10:35:34.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Tema1_MVP\\Commands\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "Tema1_MVP\\Commands\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T10:35:15.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Tema1_MVP\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\MainWindow.xaml",
+              "RelativeToolTip": "Tema1_MVP\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-05T10:31:56.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Tema1_MVP\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Paul\\Desktop\\teme_si_materiale_cursuri\\Anul2-S2\\MVP\\Tema1\\Tema1_MVP\\Tema1_MVP\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Tema1_MVP\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAhwAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T10:31:46.892Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

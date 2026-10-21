@@ -1,0 +1,15 @@
+using System.Collections.ObjectModel;
+
+namespace Tema1_MVP.Models
+{
+    /// <summary>
+    /// Represents a node in the folder-explorer tree (file or directory).
+    /// </summary>
+    public class FileTreeItemModel
+    {
+        public string Name { get; set; } = string.Empty;
+        public string FullPath { get; set; } = string.Empty;
+        public bool IsDirectory { get; set; }
+        public ObservableCollection<FileTreeItemModel> Children { get; set; } = new();
+    }
+}

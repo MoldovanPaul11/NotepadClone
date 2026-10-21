@@ -1,0 +1,12 @@
+﻿namespace Tema1_MVP.Models
+{
+    /// <summary>
+    /// Represents an open text document (tab).
+    /// </summary>
+    public class DocumentModel
+    {
+        public string? FilePath { get; set; }   // null = unsaved new file
+        public string Content { get; set; } = string.Empty;
+        public string Title { get; set; } = string.Empty;
+    }
+}

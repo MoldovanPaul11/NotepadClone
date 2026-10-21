@@ -1,0 +1,150 @@
+﻿using System.Text;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+using Tema1_MVP.Services;
+using Tema1_MVP.ViewModels;
+
+namespace Tema1_MVP
+{
+    /// <summary>
+    /// Code-behind for MainWindow.
+    /// Responsibilities here are strictly View-level wiring:
+    ///   – setting DataContext
+    ///   – subscribing to ViewModel events that require direct TextBox manipulation
+    ///     (selection/caret, which cannot be done from a ViewModel without breaking MVVM)
+    ///   – forwarding raw UI events (tab-close button, TreeView double-click) to the ViewModel
+    /// No business logic lives here.
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        private MainViewModel VM => (MainViewModel)DataContext;
+
+        public MainWindow()
+        {
+            InitializeComponent();
+
+            // Compose the ViewModel with its service dependency and assign as DataContext
+            var dialogService = new DialogService();
+            DataContext = new MainViewModel(dialogService);
+
+            // Subscribe to ViewModel events that need to touch the TextBox directly
+            VM.ScrollToMatch   += OnScrollToMatch;
+            VM.RequestGoToLine += OnGoToLine;
+        }
+
+        // ── Window closing ────────────────────────────────────────────────────
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            // Delegate the close-all / save-confirmation logic to the ViewModel.
+            // We cancel the OS close and let ExitCommand handle the shutdown.
+            e.Cancel = true;
+            VM.ExitCommand.Execute(null);
+        }
+
+        // ── Tab strip close button ────────────────────────────────────────────
+
+        /// <summary>
+        /// Handles the ✕ button click inside each tab header.
+        /// The Button's Tag is set to the DocumentViewModel in XAML, so we retrieve it here.
+        /// </summary>
+        private void TabCloseButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (sender is Button { Tag: DocumentViewModel doc })
+                VM.CloseDocumentPublic(doc);
+        }
+
+        // ── Folder TreeView ───────────────────────────────────────────────────
+
+        /// <summary>Keeps ViewModel.SelectedTreeItem in sync with the TreeView selection.</summary>
+        private void TreeView_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
+        {
+            if (e.NewValue is FileTreeItemViewModel item)
+                VM.SelectedTreeItem = item;
+        }
+
+        /// <summary>Double-clicking a file node opens it in a new tab.</summary>
+        private void TreeView_MouseDoubleClick(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            if (VM.SelectedTreeItem is { IsDirectory: false })
+                VM.TreeOpenFileCommand.Execute(null);
+        }
+
+        // ── ViewModel events requiring direct TextBox access ──────────────────
+
+        /// <summary>
+        /// Scrolls the active editor to the character offset of a search match and selects it.
+        /// Must run on the UI thread; the TextBox is inside a DataTemplate so we resolve it
+        /// by walking the visual tree of the selected TabItem.
+        /// </summary>
+        private void OnScrollToMatch(DocumentViewModel doc, int charIndex)
+        {
+            Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Input, () =>
+            {
+                var tb = GetActiveTextBox();
+                if (tb is null) return;
+                tb.Focus();
+                tb.Select(charIndex, VM.SearchText.Length);
+                tb.ScrollToLine(tb.GetLineIndexFromCharacterIndex(charIndex));
+            });
+        }
+
+        /// <summary>
+        /// Moves the caret to the beginning of the requested 1-based line number.
+        /// </summary>
+        private void OnGoToLine(DocumentViewModel doc, int lineNumber)
+        {
+            Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Input, () =>
+            {
+                var tb = GetActiveTextBox();
+                if (tb is null) return;
+
+                // Lines are 0-based internally
+                int zeroLine = Math.Max(0, lineNumber - 1);
+                int lineCount = tb.LineCount;
+                if (zeroLine >= lineCount) zeroLine = lineCount - 1;
+
+                int charIdx = tb.GetCharacterIndexFromLineIndex(zeroLine);
+                tb.Focus();
+                tb.Select(charIdx, 0);
+                tb.ScrollToLine(zeroLine);
+            });
+        }
+
+        /// <summary>
+        /// Finds the TextBox inside the currently selected tab's content presenter.
+        /// </summary>
+        private TextBox? GetActiveTextBox()
+        {
+            if (MainTabControl.SelectedItem is not DocumentViewModel) return null;
+
+            // The ContentPresenter for the selected tab lives inside the TabControl
+            if (MainTabControl.Template.FindName("PART_SelectedContentHost", MainTabControl)
+                is not ContentPresenter cp) return null;
+
+            cp.ApplyTemplate();
+            return FindVisualChild<TextBox>(cp);
+        }
+
+        /// <summary>Generic depth-first visual-tree helper.</summary>
+        private static T? FindVisualChild<T>(System.Windows.DependencyObject parent) where T : System.Windows.DependencyObject
+        {
+            int count = System.Windows.Media.VisualTreeHelper.GetChildrenCount(parent);
+            for (int i = 0; i < count; i++)
+            {
+                var child = System.Windows.Media.VisualTreeHelper.GetChild(parent, i);
+                if (child is T match) return match;
+                var result = FindVisualChild<T>(child);
+                if (result is not null) return result;
+            }
+            return null;
+        }
+    }
+}
